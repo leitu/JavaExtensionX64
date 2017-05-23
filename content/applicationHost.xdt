@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <runtime xdt:Transform="Insert">
+      <environmentVariables>
+        <add name="JAVA_HOME" value="%HOME%\site\wwwroot\bin\zulu8.17.0.3-jdk8.0.102-win_x64" />
+      </environmentVariables>
+    </runtime>
+  </system.webServer>
+</configuration>

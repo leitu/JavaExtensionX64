@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>javax64</id>
+        <title>Java Extension</title>
+        <version>1.1.4</version>
+        <authors>leitu</authors>
+        <projectUrl>https://github.com/leitu/JavaExtensionX64</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is customised Java Extension x64 for Azure Web Apps</description>
+        <tags>java</tags>
+    </metadata>
+    <files>
+        <file src="**" target="content" />
+    </files>
+</package>
